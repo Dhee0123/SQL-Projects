@@ -1,4 +1,4 @@
- nm Pizza Hut Sales Analysis Using SQL
+Pizza Hut Sales Analysis Using SQL
 
 In this project, SQL was used to analyze Pizza Hut's sales data to derive valuable business insights. The dataset includes details on sales transactions, customer demographics, product information, and store locations. The analysis focuses on the following key areas:
 
