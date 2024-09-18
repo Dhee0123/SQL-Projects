@@ -1,23 +1,22 @@
-# SQL-Projects
-My SQL project
+Pizza Hut Sales Analysis Using SQL
 
-Basic:
-1. Retrieve the total number of orders placed.
-2. Calculate the total revenue generated from pizza sales.
-3. Identify the highest-priced pizza.
-4. Identify the most common pizza size ordered.
-5. List the top 5 most ordered pizza types along with their quantities.
+In this project, SQL was used to analyze Pizza Hut's sales data to derive valuable business insights. The dataset includes details on sales transactions, customer demographics, product information, and store locations. The analysis focuses on the following key areas:
 
+Sales Overview: Calculating total sales, average sales per order, and total number of transactions over a specific period.
+SQL queries were written to extract total sales (SUM()), and total transactions (COUNT()).
 
-Intermediate:
-6. Join the necessary tables to find the total quantity of each pizza category ordered.
-7. Determine the distribution of orders by hour of the day.
-8. Join relevant tables to find the category-wise distribution of pizzas.
-9. Group the orders by date and calculate the average number of pizzas ordered per day.
-10. Determine the top 3 most ordered pizza types based on revenue.
+Customer Analysis: Segmenting customers based on demographics such as age, location, and order frequency.
+SQL joins and GROUP BY were used to create customer segments and analyze their purchasing patterns.
+Top-Selling Items: Identifying the most popular menu items based on sales volume.
+GROUP BY and ORDER BY clauses were used to rank items by total sales, along with filters to see trends over time.
+Store Performance: Comparing sales performance across different store locations to identify top-performing stores and areas for improvement.
+Store-level aggregation was achieved using JOIN operations and GROUP BY, followed by performance comparison through calculated fields like sales growth rate.
+Time-Based Trends: Analyzing sales trends over time to identify peak hours, days, and seasons.
 
-Advanced:
-11. Calculate the percentage contribution of each pizza type to total revenue.
-12. Analyze the cumulative revenue generated over time.
-13. Determine the top 3 most ordered pizza types based on revenue for each pizza category.
+JOINs for combining data from multiple tables (sales, products, customers, and stores).
+Aggregations (SUM(), COUNT(), AVG()) to summarize sales metrics.
+GROUP BY and ORDER BY to analyze data by different dimensions such as product, location, and time.
+WHERE filters to target specific subsets of data, such as time periods or customer segments.
+Window functions (RANK()) for ranking and cumulative calculations.
 
+This SQL-based analysis provided actionable insights for optimizing Pizza Hut's operations, improving marketing efforts, and boosting overall profitability.
